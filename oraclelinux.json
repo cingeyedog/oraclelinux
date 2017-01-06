@@ -119,7 +119,6 @@
       "execute_command": "echo 'vagrant' | {{.Vars}} sudo -E -S bash '{{.Path}}'",
       "scripts": [
         "script/fix-slow-dns.sh",
-        "script/kernel.sh",
         "script/sshd.sh",
         "script/update.sh",
         "script/vagrant.sh",
@@ -165,4 +164,3 @@
     "vmware_guest_os_type": "oraclelinux-64"
   }
 }
-
