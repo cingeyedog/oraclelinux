@@ -1,5 +1,6 @@
 packer_cache/
 output-*
+*.iso
 *.box
 *.tar.gz
 iso
